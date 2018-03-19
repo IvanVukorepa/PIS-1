@@ -1,0 +1,15 @@
+CC = gcc
+CFLAGS = -Wall
+TARGETS = program
+
+default: program
+
+all: $(TARGETS)
+
+program: program.o
+	$(CC) $(CFLAGS) program.o -o program
+clean:
+	rm -f *.0 *~ $(TARGETS)
+
+.c.o:
+	$(CC) $(CFLAGS) -c $<
