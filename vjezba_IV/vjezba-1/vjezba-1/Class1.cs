@@ -10,5 +10,7 @@ namespace vjezba_1
         public void Metoda()
         {
         }
+
+        //komentar
     }
 }
