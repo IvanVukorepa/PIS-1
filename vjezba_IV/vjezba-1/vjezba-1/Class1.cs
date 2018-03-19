@@ -7,5 +7,8 @@ namespace vjezba_1
 {
     class Class1
     {
+        public void Metoda()
+        {
+        }
     }
 }
